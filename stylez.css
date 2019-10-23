@@ -25,7 +25,10 @@ a {
     text-decoration: none;
 }
 
-h1 {color: #5a6167}
+h1 {
+    color: #5a6167;
+    font-weight: normal;
+}
 
 nav {
     display: flex;
@@ -48,6 +51,7 @@ nav a:hover span {
 
 .menu-title {
     color: #4997a9;
+    cursor: default;
 }
 
 .menu-title:after {
